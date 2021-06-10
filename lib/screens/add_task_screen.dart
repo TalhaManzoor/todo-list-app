@@ -167,6 +167,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                           ),
                           child: DropdownButtonFormField(
                             isDense: true,
+                            icon: Icon(Icons.arrow_drop_down_circle,color: Theme.of(context).primaryColor,),
                             items: _priorities.map((String priority) {
                               return DropdownMenuItem(
                                   value: priority,
